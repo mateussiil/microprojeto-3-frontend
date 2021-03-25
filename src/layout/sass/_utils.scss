@@ -1,0 +1,42 @@
+/* Typography */
+.card {
+    background-color: #ffffff;
+    padding: 1em;
+    margin-bottom: 16px;
+    border-radius: $borderRadius;
+
+    &.card-w-title {
+        padding-bottom: 2em;
+    }
+}
+
+/* Popup Form */
+.popup-fade {
+    transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    display: inline;
+
+    &.popup-form-active {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &.popup-form-inactive {        
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+/* Code Highlight */
+.docs {
+    pre[class*="language-"] {
+        padding: 0 !important;
+        background: transparent;
+        overflow: visible;
+
+        > code {
+            border-left: 0 none;
+            box-shadow: none !important;
+            font-size: 14px;
+        }
+    }
+}

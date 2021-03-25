@@ -1,0 +1,27 @@
+.p-tabmenu-item{
+  color: #FFFFFF;
+  border-radius: 2px;
+  margin: 0 2px;
+  padding: 8px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.p-tabmenu-item:hover{
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+.p-tabmenu-item:active{
+  transform: scale(0.9);
+  color: red;
+}
+
+.layout-topbar-logo {
+  transition: 0.2s;
+}
+
+.layout-topbar-logo:hover {
+  transform: scale(1.05);
+}
+

@@ -1,0 +1,17 @@
+.page-footer {
+    transition: margin-left $transitionDuration;
+    background-color: $footerBgColor;
+    padding: 1em 2em 2em 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    img {
+        vertical-align: middle;
+    }
+
+    .footer-text {
+        vertical-align: middle;
+    }
+}

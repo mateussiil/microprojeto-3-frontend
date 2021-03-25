@@ -1,0 +1,84 @@
+.layout-topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 1em 2em 1em 2em;
+    color: #ffffff;
+    background-color: #042f5a;
+    z-index: 999;
+    right: 0;
+    transition: left $transitionDuration;
+
+    .layout-topbar-icons {
+        display: block;
+        animation-duration: .5s;
+
+        button {
+            position: relative;
+            color: $topbarItemColor;
+            margin-left: 20px;
+            display: inline-block;
+            text-decoration: none;
+            transition: color $transitionDuration;
+
+            &:hover {
+                color: $topbarItemHoverColor;
+            }
+
+            &:focus {
+                @include focused();
+            }
+
+            span {
+                &.layout-topbar-icon {
+                    font-size: 1.5em;
+                }
+
+                &.layout-topbar-item-text {
+                    font-size: 20px;
+                    display: none;
+                }
+
+                &.layout-topbar-badge {
+                    position: absolute;
+                    font-size: 10px;
+                    right: -5px;
+                    top: -5px;
+                    width: 16px;
+                    height: 16px;
+                    text-align: center;
+                    line-height: 16px;
+                    color: $topbarItemBadgeColor;
+                    background-color: $topbarItemBadgeBgColor;
+                    border-radius: 50%;
+                }
+            }
+        }        
+    }
+
+    .layout-topbar-logo {
+        display: inline-block;
+    }
+
+    .layout-menu-button {
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none;
+        color: $topbarItemColor;
+        transition: color $transitionDuration;
+
+        span {
+            font-size: 1.5em;
+        }
+
+        &:hover {
+            color: $topbarItemHoverColor;
+        }
+    }
+
+    button {
+        cursor: pointer;
+    }
+}
