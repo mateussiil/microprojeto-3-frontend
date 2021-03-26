@@ -26,7 +26,7 @@ const Empresa = () => {
             <div className="product-item">
                 <div className="product-item-content">
                     <div className="p-mb-3">
-                        <img height="100px" width="150px" src={`http://localhost:3336/files/images/product/${product.name}.jpeg`} className="product-image" />
+                        <img height="100px" width="150px" src={`https://microprojeto3-frontend.herokuapp.com/files/images/product/${product.name}.jpeg`} className="product-image" />
                     </div>
                     <div>
                         <h4 className="p-mb-1">{product.name}</h4>
