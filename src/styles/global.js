@@ -7,7 +7,6 @@ export default createGlobalStyle`
     :root {
         --mainBgColor: #ebebeb;
     }
-    
     *{
         margin: 0;
         padding: 0;

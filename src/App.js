@@ -8,14 +8,14 @@ import 'primeflex/primeflex.css';
 import './layout/layout.scss';
 
 import Routes from './routes';
+import Global from './styles/global';
 
 function App() {
   return (
-    <div style={{ height: '100%' }} >
       <HashRouter>
+        <Global/>
         <Routes />
       </HashRouter>
-    </div>
   );
 }
 

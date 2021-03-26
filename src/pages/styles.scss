@@ -1,0 +1,22 @@
+.p-flex-column .p-card.p-component {
+    transition: 0.4s;
+
+    .p-card-subtitle {
+        transition: 0.4s;
+    }
+}
+
+.p-flex-column .p-card.p-component:hover {
+    background-color: #f34121;
+    color: #FFFFFF;
+    cursor: pointer;
+    transform: scale(1.05);
+
+    .p-card-subtitle {
+        color: #FFFFFF;
+    }
+}
+
+.p-flex-column .p-card.p-component:active {
+    transform: scale(1);
+}

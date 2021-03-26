@@ -25,11 +25,10 @@ const Empresa = () => {
         return (
             <div className="product-item">
                 <div className="product-item-content">
-                    
                     <div className="p-mb-3">
                         {product.index <=4 ? 
-                        <img height="100px" src={`/images/product/${product.name}.jpeg`} className="product-image" />
-                        : <img height="100px" src={`/images/product/embreve.jpeg`} className="product-image" />
+                        <img height="100px" src={`http://localhost:3336/files/images/product/${product.name}.jpeg`} className="product-image" />
+                        : <img height="100px" src={`http://localhost:3336/files/images/product/embreve.jpeg`} className="product-image" />
                         }
                     </div>
                     <div>
@@ -69,7 +68,7 @@ const Empresa = () => {
     };
 
     return (
-        <div>
+        <div style ={{padding: "70px 2rem 2rem 2rem"}}>
             <Toast ref={getClient.toast} />
             <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                 <Carousel value={products} itemTemplate={productTemplate} numVisible={3} autoplayInterval={3000} numScroll={1}></Carousel>
