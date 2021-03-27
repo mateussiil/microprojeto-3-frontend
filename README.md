@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+<div align="center">
+<h1>(Rest)aurante</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://pt.seaicons.com/wp-content/uploads/2015/10/Pie-icon.png">
+  <img
+    height="80"
+    width="80"
+    alt="goat"
+    src="https://pt.seaicons.com/wp-content/uploads/2015/10/Pie-icon.png"
+  />
+</a>
 
-## Available Scripts
+<p>Microprojeto desenvolvido para cadeira de Sistema Distribuidos</p>
+<p>Este microprojeto tem como finalidade introduzir ao desenvolvimento de aplicações rest</p>
 
-In the project directory, you can run:
+<br />
+</div>
 
-### `yarn start`
+<hr />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- prettier-ignore-end -->
+## Tabela de Conteúdo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Tabela de Conteúdo](#tabela-de-conteúdo)
+- [Demonstração](#demonstração)
+- [Tecnologias](#tecnologias)
+- [Instalação](#instalação)
+- [Dica](#dica)
+- [LICENSE](#license)
 
-### `yarn test`
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demonstração
 
-### `yarn build`
+<a href="https://microprojeto3-frontend.herokuapp.com/">Projeto frontend</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [npm](https://www.npmjs.com/)
+- [yarn](https://classic.yarnpkg.com)
+## Instalação
 
-### `yarn eject`
+Para fazer o download desse projeto você pode da um git clone
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+https://github.com/mateussiil/microprojeto-3-frontend.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Em seguindas instale as dependências, via [npm][npm] ou [yarn][yarn]:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Execute, via [npm][npm]:
 
-## Learn More
+```
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Build:
 
-### Code Splitting
+```
+npm build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Dica
 
-### Analyzing the Bundle Size
+Você precisa do projeto do backend. Clique aqui: <a href="https://github.com/mateussiil/microprojeto3-backend">Backend</a>.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## LICENSE
 
-### Making a Progressive Web App
+[MIT](LICENSE)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- prettier-ignore-start -->
 
-### Advanced Configuration
+[npm]: https://www.npmjs.com/
+[yarn]: https://classic.yarnpkg.com
+[node]: https://nodejs.org
+[build-badge]: https://img.shields.io/github/workflow/status/testing-library/react-testing-library/validate?logo=github&style=flat-square
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Feito com ♥ by Mateus Oliveira 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- prettier-ignore-end -->
